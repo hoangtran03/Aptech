@@ -1,0 +1,30 @@
+body{
+    padding: 30px;
+    color: deepskyblue;
+}
+.avatar {
+   border-radius: 100px;
+}
+h3{
+    font-family: 'Lobster', cursive;
+}
+.button {
+    margin-bottom: 20px;
+    background-color: lawngreen;
+    border: 0;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+    box-shadow: 0px 11px 22px -9px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 11px 22px -9px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 11px 22px -9px rgba(0,0,0,1);
+    cursor: pointer;
+}
+.button:hover {
+    color: white;
+    background-color: black;
+}
