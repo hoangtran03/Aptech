@@ -1,6 +1,5 @@
 body {
     background-color: rgb(255, 255, 240);
-    margin-left: 20%;
 }
 
 textarea {
@@ -29,8 +28,7 @@ textarea {
 #main {
     width: 400px;
     background-color: #DDFFEE;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px auto;
 }
 
 #help {
