@@ -1,0 +1,97 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-bar {
+    background-color: #6ab837a8;
+    margin: 0px auto;
+}
+
+.menu-bar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-bar ul li {
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-bar ul li {
+    padding-right: 45px;
+    padding-left: 45px;
+    border-right: solid white 1px;
+}
+
+.menu-bar ul.left li:hover {
+    background-color: orange;
+}
+
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-bar .right input,
+button {
+    font-size: 20px;
+}
+
+.menu-bar .right {
+    position: absolute;
+    right: 0px;
+    padding-bottom: 12px;
+    height: 45px;
+}
+
+.menu-bar ul.right li {
+    background-color: orange;
+}
+
+.content {
+    display: flex;
+}
+
+h2 {
+    color: rgb(52, 164, 172);
+}
+
+.menu-right {
+    width: 50%;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.menu-right .table h3 {
+    color: white;
+    background-color: yellowgreen;
+}
+
+.menu-right a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.menu-right .table1 h3 {
+    color: blue;
+    background-color: yellowgreen;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.main-content .read li {
+    color: mediumblue;
+}
+
+.footer {
+    width: 60%;
+    margin: 0px auto;
+    position: relative;
+}
