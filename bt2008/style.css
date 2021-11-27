@@ -1,0 +1,23 @@
+table {
+    border: 1px rgb(50, 114, 187) solid;
+    border-collapse: collapse;
+    width: 60%;
+    padding: 10px;
+}
+
+.head {
+    background-color: rgb(50, 114, 187);
+    color: white;
+    padding: 10px;
+}
+
+th {
+    border: solid grey 1px;
+    text-align: left;
+    padding: 10px;
+}
+
+tbody td {
+    border: solid grey 1px;
+    padding: 10px;
+}
