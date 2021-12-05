@@ -11,63 +11,66 @@
 
 <body>
     <div class="container">
-        <div class="aligh-center">
-            <div class="header">
+        <div class="header">
+            <div class="title">
                 <div class="logo">
                     <p>LOGO</p>
+                </div>
+                <div class="name">
                     <h3>WEB TIN TUC</h3>
                 </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="test60.html">Trang Chu</a></li>
-                        <li>Tin Hoc</li>
-                        <li><a href="form.html">Biet Mau</a></li>
-                        <li>Khoa Hoc</li>
-                        <li>Tuyen Dung</li>
-                        <li>Lien He</li>
-                    </ul>
-                    <div class="none"><label></label>
-                    </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="test60.html">Trang Chu</a></li>
+                    <li>Tin Hoc</li>
+                    <li><a href="form.html">Biet Mau</a></li>
+                    <li>Khoa Hoc</li>
+                    <li>Tuyen Dung</li>
+                    <li>Lien He</li>
+                </ul>
+                <div class="none"><label></label>
                 </div>
             </div>
-            <div class="main">
-                <div class="main-left">
-                    <form method="post" onsubmit="submitData()">
-                        <p>NHAP THONG TIN BAI VIET</p>
-                        <div class="form">
-                            <label>TIEU DE:</label>
-                        </div>
-                        <div class="form">
-                            <input required="true" type="text" id="tieude" maxlength="200" minlength="10">
-                        </div>
-                        <div class="form">
-                            <label>HINH ANH</label>
-                        </div>
-                        <div class="form">
-                            <input required="true" type="text" name="hinhanh">
-                        </div>
-                        <div class="form">
-                            <label>NOI DUNG</label>
-                        </div>
-                        <div class="form">
-                            <textarea required="true" rows="5" id="content" maxlength="500" minlength="20"></textarea>
-                        </div>
-                        <div class="luu">
-                            <button style="submit" id="save" onclick="Save()">LUU</button>
-                            <button style="reset" class="xoa" id="reset" onclick="Reset()">XOA</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="main-right">
-                    <h4>BAI VIET MOI NHAT</h4>
-                    <ul>
-                        <li>BAI 1</li>
-                        <li>BAI 2</li>
-                        <li>BAI 3</li>
-                        <li>BAI 4</li>
-                        <li>BAI 5</li>
-                    </ul>
-                </div>
+        </div>
+        <br>
+        <div class="main">
+            <div class="main-left">
+                <form method="post" onsubmit="submitData()">
+                    <p>NHAP THONG TIN BAI VIET</p>
+                    <div class="form">
+                        <label>TIEU DE:</label>
+                    </div>
+                    <div class="form">
+                        <input required="true" type="text" id="tieude" maxlength="200" minlength="10">
+                    </div>
+                    <div class="form">
+                        <label>HINH ANH</label>
+                    </div>
+                    <div class="form">
+                        <input required="true" type="text" name="hinhanh">
+                    </div>
+                    <div class="form">
+                        <label>NOI DUNG</label>
+                    </div>
+                    <div class="form">
+                        <textarea required="true" rows="5" id="content" maxlength="500" minlength="20"></textarea>
+                    </div>
+                    <div class="luu">
+                        <button style="submit" id="save" onclick="Save()">LUU</button>
+                        <button style="reset" class="xoa" id="reset" onclick="Reset()">XOA</button>
+                    </div>
+                </form>
+            </div>
+            <div class="main-right">
+                <h4>BAI VIET MOI NHAT</h4>
+                <ul>
+                    <li>BAI 1</li>
+                    <li>BAI 2</li>
+                    <li>BAI 3</li>
+                    <li>BAI 4</li>
+                    <li>BAI 5</li>
+                </ul>
             </div>
         </div>
     </div>
