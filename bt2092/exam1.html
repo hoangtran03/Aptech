@@ -13,19 +13,29 @@
 
     <div class="main">
         <h2>Đăng nhập hệ thống</h2>
-        <div class="forrm">
-            <img src="login.png" width="20%">
+        <div class="text">
+            <div class="forrm">
+                <img src="login.png" width="70%">
+            </div>
+            <div>
+                <form id="myform" action="#">
+                    <div class="form">
+                        <p><label>Tài khoản</label>
+                            <input type="true" name="name" id="name">
+                        </p>
+                        <p>
+                            <label>Mật khẩu</label>
+                            <input type="password" name="pass" id="pass">
+                        </p>
+                    </div>
+                    <div class="end">
+                        <label></label>
+                        <button type="submit" onclick="Submit()">Đăng nhập</button>
+                        <button type="reset" onclick="Reset()">Nhập lại</button>
+                    </div>
+            </div>
         </div>
-        <form id="myform" action="#">
-            <div class="form">
-                <p> Tài khoản <input type="true" name="name" id="name"></p>
-                <p> Mật khẩu <input type="password" name="pass" id="pass"></p>
-            </div>
-            <div class="end">
-                <label></label>
-                <button type="submit" onclick="Submit()">Đăng nhập</button>
-                <button type="reset" onclick="Reset()">Nhập lại</button>
-            </div>
+
         </form>
     </div>
     <script src="exam1.js"></script>

@@ -14,15 +14,27 @@ p {
 }
 
 .main {
-    width: 400px;
+    width: 30%;
     margin: 0px auto;
     padding: 25px;
 }
 
 input {
-    width: 60%;
+    border: 1px rgb(221, 221, 221) solid;
+}
+
+p label {
+    float: left;
+    text-align: right;
+    color: #000066;
+    font-weight: bold;
+    padding-right: 10px;
 }
 
 .end {
-    padding-left: 19%;
+    padding-left: 33%;
+}
+
+.text {
+    display: flex;
 }
