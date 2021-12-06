@@ -1,0 +1,43 @@
+body {
+    background-color: #FFFFCC;
+    font-family: arial;
+    width: 640px;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.logo {
+    color: #0000CC;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    color: #000066;
+    font-weight: bold;
+}
+
+.main {
+    width: 100%;
+}
+
+label {
+    width: 20%;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+select {
+    width: 170px;
+}
+
+button {
+    background-color: #CCCCCC;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.end {
+    padding-left: 70px;
+}
