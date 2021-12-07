@@ -10,45 +10,47 @@
 </head>
 
 <body>
-
-    <form action="#" id="myform">
+    <div class="container">
         <div class="logo">
             <img src="regis.png" width="50px"><sup> Phiếu mượn sách</sup>
         </div>
         <div class="main">
-            <p>
-                <label>Mã sinh viên</label>
-                <input type="text" id="msv">
-            </p>
-            <p>
-                <label>Họ và tên</label>
-                <input type="text" id="name">
-            </p>
-            <p>
-                <label>Loại sách</label>
-                <select>
-                    <option>--Chọn loại sách--</option>
-                </select>
-            </p>
-            <p>
-                <label>Tên sách</label>
-                <input type="text" id="sách">
-            </p>
-            <p>
-                <label>Ngày mượn</label>
-                <input type="date" id="muon">
-            </p>
-            <p>
-                <label>Ngày trả</label>
-                <input type="date" id="tra">
-            </p>
-            <div class="end">
-                <label></label>
-                <button type="submit" onclick="Submit()"> <img src="log_in.png" width="20px"><sup>Đăng kí</sup> </button>
-                <button type="reset" onclick="Reset()"> <img src="cancel.png" width="20px"><sup>Nhập lại</sup> </button>
-            </div>
+            <form method="post">
+                <div class="group">
+                    <label>Mã sinh viên</label>
+                    <input type="text" id="msv">
+                </div>
+                <div class="group">
+                    <label>Họ và tên</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="group">
+                    <label>Loại sách</label>
+                    <select>
+                        <option>--Chọn loại sách--</option>
+                    </select>
+                </div>
+                <div class="group">
+                    <label>Tên sách</label>
+                    <input type="text" id="sách">
+                </div>
+                <div class="group">
+                    <label>Ngày mượn</label>
+                    <input type="text" id="muon">
+                </div>
+                <div class="group">
+                    <label>Ngày trả</label>
+                    <input type="text" id="tra">
+                </div>
+                <div class="end">
+                    <label></label>
+                    <button type="submit" onclick="Submit()"> <img src="log_in.png" width="20px"><sup>Đăng kí</sup> </button>
+                    <button type="reset"> <img src="cancel.png" width="20px"><sup>Nhập lại</sup> </button>
+                </div>
+            </form>
         </div>
-    </form>
+    </div>
+
     <script src="exam2.js"></script>
 </body>
 

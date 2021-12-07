@@ -1,13 +1,15 @@
 function Submit() {
-    var taikhoan = document.getElementById('name').value
-    var matkhau = document.getElementById('pass').value
-    if (taikhoan == '', matkhau == '') {
-        alert("điền đủ thông tin")
+    taikhoan = document.getElementById('name').value
+    matkhau = document.getElementById('pass').value
+    if (taikhoan == '' || matkhau == '') {
+        alert("điền đủ thông tin tài khoản và mật khẩu")
     } else {
-        alert("Đăng nhập thành công")
+        popupTag = document.getElementById('popup_id')
+        popupTag.style.display = "block"
     }
 }
 
-function Reset() {
-    document.getElementById("myform").Reset();
+function hidePopup() {
+    popupTag = document.getElementById('popup_id')
+    popupTag.style.display = "none"
 }

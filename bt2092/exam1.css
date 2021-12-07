@@ -1,40 +1,82 @@
 body {
-    background-color: #FFFFCC;
-    font-family: arial;
-}
-
-h2 {
-    text-transform: uppercase;
-    color: #0000CC;
-}
-
-p {
-    color: #000066;
-    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
 }
 
 .main {
-    width: 30%;
+    width: 600px;
     margin: 0px auto;
-    padding: 25px;
+    background-color: #ffffcc;
+    padding: 10px;
 }
 
-input {
-    border: 1px rgb(221, 221, 221) solid;
-}
-
-p label {
-    float: left;
-    text-align: right;
-    color: #000066;
-    font-weight: bold;
-    padding-right: 10px;
-}
-
-.end {
-    padding-left: 33%;
+.main h1 {
+    font-family: Arial;
+    color: #0000cc;
+    text-align: center;
 }
 
 .text {
+    width: 100%;
     display: flex;
+}
+
+.text .form {
+    width: 25%;
+}
+
+.text .form2 {
+    width: 75%;
+}
+
+.group {
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.group label {
+    width: 30%;
+    color: #000066;
+    font-weight: bold;
+}
+
+.group button {
+    margin-right: 10px;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.4);
+    top: 0px;
+    display: none;
+}
+
+.popup-content {
+    width: 300px;
+    margin: 0px auto;
+    background-color: white;
+    margin-top: 10%;
+}
+
+.popup-content .msg {
+    padding: 30px;
+}
+
+.popup-content .footer {
+    background-color: #ededed;
+    width: 100%;
+    height: 30px;
+}
+
+.popup-content .footer button {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+button {
+    margin-right: 10px;
 }

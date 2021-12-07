@@ -1,9 +1,6 @@
 body {
-    background-color: #FFFFCC;
-    font-family: arial;
-    width: 640px;
-    padding: 10px;
-    margin: 0px auto;
+    margin: 0px;
+    padding: 0px;
 }
 
 .logo {
@@ -12,20 +9,28 @@ body {
     font-size: 30px;
 }
 
-p {
-    color: #000066;
-    font-weight: bold;
+.container {
+    width: 600px;
+    margin: 0px auto;
+    background-color: #FFFFCC;
 }
 
 .main {
     width: 100%;
 }
 
-label {
-    width: 20%;
+.group {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.main .group label {
+    width: 30%;
+    color: #000066;
+    font-weight: bold;
     float: left;
     text-align: right;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 select {
@@ -36,8 +41,9 @@ button {
     background-color: #CCCCCC;
     font-size: 15px;
     font-weight: bold;
+    margin-right: 10px;
 }
 
 .end {
-    padding-left: 70px;
+    padding-left: 32%;
 }
