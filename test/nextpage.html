@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextPage</title>
+    <link rel="stylesheet" href="nextpage.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Student management</h2>
+        <div class="main">
+            <form method="post">
+                <div class="group">
+                    <label>Student Name:</label>
+                    <input type="text" name="stn" id="student_id" placeholder="Input student name" required>
+                </div>
+                <div class="group">
+                    <label>Student DOB:</label>
+                    <input type="date" name="date" id="date_id">
+                </div>
+                <div class="group">
+                    <label>Student Gender:</label>
+                    <input type="radio" name="gender" id="male" value="male">Male
+                    <input type="radio" name="gender" id="female" value="female">Female
+                </div>
+                <div class="group">
+                    <label>Student Language:</label>
+                    <input type="checkbox" value="English">English
+                    <input type="checkbox" value="Vietnamese">Vietnamese
+                    <input type="checkbox" value="Japanese">Japanese
+                    <input type="checkbox" value="Chinese">Chinese
+                    <input type="checkbox" value="French">French
+                </div>
+                <div class="group">
+                    <label>Student Class:</label>
+                    <select id="class_id">
+                        <option>C2108L</option>
+                        <option>C2009L</option>
+                        <option>C2010L</option>
+                    </select>
+                </div>
+
+                <div class="group">
+                    <label></label>
+                    <button type="button" onclick="addProduct()">Add</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="panel" style="margin-top: 20px;">
+            <div class="panel-heading">
+                <h2>Student List</h2>
+            </div>
+            <div class="panel-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Class</th>
+                            <th>DOB</th>
+                            <th>Gender</th>
+                            <th>Language</th>
+                            <th></th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="result">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="nextpage.js"></script>
+</body>
+
+</html>
